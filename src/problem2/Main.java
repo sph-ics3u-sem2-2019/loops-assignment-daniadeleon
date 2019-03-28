@@ -11,9 +11,12 @@ public class Main {
 		counter=in.nextInt();
 		System.out.println("Give me the second number");
 		max=in.nextInt();
+		int total=0;
 		while (counter<=max) { 
 				System.out.println(counter);
+				total=total+counter;
 				counter++;
 	}
+		System.out.println("total is "+total);
 	}
 }
