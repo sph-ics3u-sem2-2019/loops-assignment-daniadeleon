@@ -8,6 +8,10 @@ public class Main {
 		//give them their score
 		Random rnd=new Random();
 		Scanner in=new Scanner(System.in);
+		int x=1;
+		int y=1;
+		in.nextInt(1);
+		int x=rnd.nextInt(max-min+1)+min;
 
 	}
 
